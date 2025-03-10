@@ -1,0 +1,17 @@
+# Python
+*.pyc
+__pycache__
+
+# Django
+sqlite.db
+
+# Environ
+.env
+.venv
+venv
+env
+.env.ini
+
+
+# Visual Studio Code
+vscode/
