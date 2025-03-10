@@ -3,7 +3,7 @@
 __pycache__
 
 # Django
-sqlite.db
+db.sqlite3
 
 # Environ
 .env
