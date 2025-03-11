@@ -19,7 +19,6 @@ services:
     build:
       context: .
       dockerfile: wallets/Dockerfile
-    command: python wallets/manage.py migrate && python wallets/manage.py runserver 0.0.0.0:8000
     env_file:
       - .env
     ports:
