@@ -13,5 +13,5 @@ class WalletTransactionRequestSerializer(serializers.Serializer):
 class WalletDetailResponseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Wallet
-        fields = ('uuid', 'balance')
+        fields = ('id', 'balance')
         read_only_fields = fields

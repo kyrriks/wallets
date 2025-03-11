@@ -27,7 +27,7 @@ class WalletDetailApiView(APIView):
         }
     )
     def get(self, request: Request, wallet_uuid: str):
-        wallet = get_object_or_404(Wallet, id=wallet_uuid)
+        wallet = get_object_or_404(Wallet, pk=wallet_uuid)
 
         serializer = WalletDetailResponseSerializer(wallet)
 
