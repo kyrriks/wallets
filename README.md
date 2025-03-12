@@ -22,11 +22,15 @@ python wallets/manage.py migrate
 1. **Зайти в контейнер с django приложением**
 2. **Перейти в директорию проекта**
 
-`cd wallets`
+```
+cd wallets
+```
 
 3. **Запустить тесты**
 
-`pytest`
+```
+pytest
+```
 
 
 ## API Endpoints
