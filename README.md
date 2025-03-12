@@ -40,4 +40,4 @@ pytest
 - **POST /wallets/{wallet_uuid}/operation**: Выполнение транзакции на кошельке.
 
 # Документация API
-Документация API доступна по адресу: **http://localhost:8000/swagger/
+Документация API доступна по адресу: **http://localhost:8000/swagger/**
